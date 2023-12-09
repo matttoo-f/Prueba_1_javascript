@@ -15,7 +15,7 @@ function sumar() {
 cantidad++
 cantidadSpan.innerHTML = cantidad
 total = cantidad * precio
-totalSpan.textContent = total
+totalSpan.innerHTML = total
 
 }
 function restar (){
